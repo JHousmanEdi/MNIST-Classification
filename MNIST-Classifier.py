@@ -1,8 +1,8 @@
+import tensorflow as tf
 from __future__ import division, print_function
 import os
 import numpy as np
 import pandas as pd
-import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
 train_data_path = os.path.join(os.getcwd(), 'train.csv')
